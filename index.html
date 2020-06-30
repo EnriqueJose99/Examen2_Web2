@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<title>Floristeria</title>
+ 	 	<link rel="stylesheet" href="css/framework7.min.css">
+  		<link rel="stylesheet" href="css/framework7.bundle.min.css">
+  		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class = "color-theme-blue">
+		<div id="app">
+			<!-- Your main view, should have "view-main" class -->
+			<div class="view view-main view-init">	
+				<!-- Initial Page, "data-name" contains page name -->
+				<section class = "panel panel-left panel-cover">
+					<div class = "block">
+						<div class = "row">
+							<article class=  "col-20">
+								<img src="img/avatarMen.jpg" alt="avatar" class="img-fluid img-perfil">
+							</article>
+							<article class = "col-80">
+								<b>Enrique Galeano</b><br>
+							</article>
+						</div>
+					</div>
+					<div class = "list">
+						<ul class="list-menu">
+							<li>
+								<a href="#" class="item-link item-content panel-close">
+									<div class="item-media">
+										<span class="material-icons">home</span>
+									</div>
+									<div class="item-inner">
+										Inicio
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/profile/" class="item-link item-content panel-close">
+									<div class="item-media">
+										<span class="material-icons">account_circle</span>
+									</div>
+									<div class="item-inner">
+										Perfil
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/categoriaFlor/" class="item-link item-content panel-close">
+									<div class="item-media">
+										<span class="material-icons">list</span>
+									</div>
+									<div class="item-inner">
+										Categorias
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="item-link item-content panel-close">
+									<div class="item-media">
+										<span class="material-icons">local_offer</span>
+									</div>
+									<div class="item-inner">
+										Promociones
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="item-link item-content panel-close">
+									<div class="item-media">
+										<span class="material-icons">payment</span>
+									</div>
+									<div class="item-inner">
+										Mis Ordenes
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="item-link item-content panel-close">
+									<div class="item-media">
+										<span class="material-icons">exit_to_app</span>
+									</div>
+									<div class="item-inner">
+										Salir
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				
+				<section data-name="home" class="page">
+					<!-- Top Navbar -->
+					<nav class="navbar">
+						<div class="navbar-bg"></div>
+						<div class="navbar-inner">
+							<div class = "left">
+								<a href="#" class="link panel-open">
+									<span class="material-icons">line_weight</span>
+								</a>
+							</div>
+							<div class="title">Floristeria</div>
+						</div>
+					</nav>
+					<!-- Scrollable page content -->
+					<article class="page-content">
+						<div class= "block saludo">
+							<h2>Hola <span id="nombre">Enrique</span>.</h2>
+							<h3>Tus flores para las mejores ocasiones estan aqui.</h3>
+						</div>
+						<div class="block">
+							<div class="swiper-container swiper-init">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<article class="card card-food">
+											<div class="card-header">
+												<img src="img/flowers1.jpg" class="img-fluid" alt="flowers">
+											</div>
+											
+										</article>
+									</div>
+									<div class="swiper-slide">
+										<article class="card card-food">
+											<div class="card-header">
+												<img src="img/flowers2.jpeg" class="img-fluid" alt="flowers2">
+											</div>
+										</article>
+									</div>
+									<div class="swiper-slide">
+										<article class="card card-food">
+											<div class="card-header">
+												<img src="img/flowers3.jpg" class="img-fluid" alt="flowers3">
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div><!--block comidas favoritas-->
+						<h2 class="block-title">Categorias de Flores</h2>
+						<div class="block categorias">
+							<div class="row">
+								<article class="col-50">
+									<a href="/categoriaFlor/">
+									<div class="card">
+										<div class="card-content">
+											<div class="derecha">
+												<span class="material-icons">filter_vintage</span>
+											</div>
+											<h3>Amor</h3>
+										</div>
+									</div>
+										</a>
+								</article>
+								<article class="col-50">
+										<div class="card">
+												<div class="card-content">
+													<div class="derecha">
+														<span class="material-icons">local_florist</span>
+													</div>
+													<h3>Cumpleaños</h3>
+												</div>
+											</div>
+								</article>
+							</div>
+							<div class="row">
+								<article class="col-50">
+									<div class="card">
+										<div class="card-content">
+											<div class="derecha">
+												<span class="material-icons">spa</span>
+											</div>
+											<h3>Funebres</h3>
+										</div>
+									</div>
+								</article>
+								<article class="col-50">
+									<div class="card">
+										<div class="card-content">
+											<div class="derecha">
+												<span class="material-icons">emoji_nature</span>
+											</div>
+											<h3>Temporada</h3>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div><!--/view-->
+		</div><!--/app-->
+		<script src="js/framework7.min.js"></script>
+		<script src="js/framework7.bundle.min.js"></script>
+		<script src="js/my-app.js"></script>
+	</body>
+</html>

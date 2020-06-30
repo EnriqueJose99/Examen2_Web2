@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+:root{
+	--verde: #0f9e5c;
+	--fondo-panel: #0068ff;
+	--icon-menu: #c6d0d9;
+	--text-menu: #fff;
+	--bg-menu:#0068ff;
+	--f7-list-border-color: none;
+	
+	--azul:#0068ff;
+	--gris:#b0b6c2;
+	--carbon:#3b3c40;
+	
+	
+	--azul-morado: #7c85a1;
+	--blanco-flori: #fff;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.panel-left{
+	background-color:#5159c6!important;
+	color: #ffffff!important;
+}
+
+.letra-verde{
+	color: var(--verde)!important;
+}
+
+.letra-blanco{
+	color: #fff;
+}
+
+.list-menu .item-media span{
+	color: var(--icon-menu)!important;
+}
+
+.list-menu .item-inner{
+	color: var(--text-menu)!important;
+}
+
+.list-menu{
+	background-color:#5159c6!important;
+	font-size: 14px;
+}
+
+.list-menu .item-inner::before{
+	color: rgba(255,255,255,0.50) !important;
+}
+
+.list-menu .item-inner::after{
+	background-color: transparent!important;
+}
+
+
+h1,h2,h3,h4{
+	margin: 2px 0;
+}
+
+
+.saludo{
+	color: #5159c6;
+}
+
+
+.saludo h2{
+	font-size: 24px;
+}
+
+.saludo h3{
+	font-weight: 500;
+}
+
+.block-title{
+	color: #000000;
+	font-weight: 600;
+}
+
+.img-fluid{
+	max-width: 100%
+}
+
+.card-food .card-header{
+	padding: 0; 
+}
+
+.card-food .card-header img{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.card-food .card-content{
+	background-color: #7c85a1;
+	color: #fff;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 16px;
+}
+
+.card-food .card-content article:last-child{
+	justify-content: flex-end;
+	display: flex;
+	font-size: 16px;
+}
+
+.card-food .card-content i{
+	font-size: 20px;
+}
+
+.categorias .card{
+	background-color: #5159c6;
+	color: #fff;
+	padding: 5px 10px;
+}
+
+.categorias .card-content img{
+	width: 40px;
+}
+
+.derecha{
+	text-align: right;
+}
+
+.categorias h3{
+	margin-top: -12%;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.img-perfil{
+	border-radius: 100%;
+}
+
+.bg-azul{
+	background-color:#5159c6;
+	color: #fff;
+	padding: 45px 0;
+}
+
+.bg-azul .block{
+	margin-top: 0;
+}
+
+.perfil-contador .card-content{
+	padding: 40px 20px;
+	text-align: center;
+}
+
+.perfil-contador .card{
+	margin-top: -25%;
+	box-shadow: 0px 0px 10px 0px #eee;
+}
+
+.perfil-contador h4{
+	font-size: 24px;
+}
+
+.list-perfil .item-header{
+	color: #666;
+}
+
+.list-perfil .item-title{
+	color: #000;
+	font-weight: 500;
+}
+
+.bg-carnes .block{
+	margin-top: 0;
+}
+
+.lista-productos .item-media img{
+	width: 80px;
+}
+
+.info-producto .popup-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #aaa;
+}
+
+.info-producto .titulo{
+	font-size: 20px;
+}
+
+.info-producto .info{
+	color: #aaa;
+}
+
+.info-producto .precio{
+	color: var(--azul);
+	font-size: 16px;
+}
+
+#login .page-content,
+#login .page{
+	background-color: #ddd!important;
+}
+
